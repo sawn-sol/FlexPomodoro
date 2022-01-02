@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> FlexPomodoro </title>
+        <meta charset="utf-8"/>
+        <script src="https://kit.fontawesome.com/b7b077d470.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel = "icon" href ="Assets/flex_logo.png" type = "image/x-icon">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <script  src="main.js" async></script>
+    </head>
+    <body>
+        <header id="header"> 
+            <a class="header-buttons" id="bigshot" href="https://github.com/sawn-sol" target="_blank" >Sawn's GitHub</a>
+            <!-- <a class="header-buttons" href="pages/projects.html">Projects</a> -->
+            <!-- <a class="header-buttons" href="pages/test.html"> test</a>
+            <a class="header-buttons" href="#x">fd</a> -->
+            <!-- <a type="button" class="header-buttons" onclick="toggleMenu()"> Options </a> -->
+        </header>
+        <!-- <div id="sidebar">
+            <div id="optionsButton">
+                <button>s</button>
+            </div>
+        </div> -->
+        <div class="banner">
+            <h1 id="title"> FlexPomodoro </h1>
+            <h2 id="subtitle">Time to Focus!</h2>
+            <div>
+                <div id="countdown">
+                    <input class="time" id="minutes" step="01" type="number" max="999" min="00" value="25" placeholder="00">
+                    <p> : </p>
+                    <input class="time" id="seconds" type="number" max="60" min="-1" value="00" placeholder="00">
+                </div>
+                <div id="buttons">
+                    <button id="start"> <i id="pause_button" class="fas fa-play"></i>Start </button>
+                    <button id="modeBtn" onclick="toggleMode()"> <i id="pause_button" class="fas fa-magic"></i>Mode</button>
+                    
+                    <button id="reset"> <i class="fas fa-power-off"></i> Reset </button>
+                </div>
+            </div>
+        </div>
+        
+    <!-- <div id="x"></div>
+    <div id="projects">
+        <h1> Areas of Interest </h1>
+    </div> 
+    <div style="height: 4.5em"> ss </div>
+    <h1 id="title">HOME</h1> -->
+    
+</body>
+</html>
